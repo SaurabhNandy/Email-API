@@ -13,6 +13,7 @@ request body:
 
 - Send a mail: host_url/mail-server/send (POST)
  ```
+ request body:
 {
 	"sender_email": "",
 	"password": "",
@@ -27,6 +28,7 @@ request body:
 
 - Receive mail: host_url/mail-server/receive (POST)
 ```
+request body:
 {
 	"sender_email": "",
 	"password": "",
