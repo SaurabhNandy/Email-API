@@ -1,5 +1,5 @@
 # Email-API
-APIs to authorise, send and receive mail in python
+APIs to authorise, send and receive mail using python
 
 ## Available Api Endpoints
 - Authorise user: host_url/mail-server/authenticate (POST)
