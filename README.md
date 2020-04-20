@@ -24,6 +24,7 @@ request body:
 		"content": ""
 	}
 }
+type can be plain or html depending on contents of the body
 ```
 
 - Receive mail: host_url/mail-server/receive (POST)
@@ -36,4 +37,6 @@ request body:
 	"count": "",
 	"next_mail_id": ""
 }
+- count is an integer which defines number of mails to be fetched
+- next_mail_id is an integer, null when next_mail_id is not known
 ```
