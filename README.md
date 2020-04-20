@@ -1,5 +1,5 @@
 # Email-API
-APIs to authorise, send and receive mail using python
+APIs to authorise, send and receive mail using Flask
 
 ## Available Api Endpoints
 - Authorise user: host_url/mail-server/authenticate (POST)
