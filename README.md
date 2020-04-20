@@ -24,7 +24,7 @@ request body:
 		"content": ""
 	}
 }
-type can be plain or html depending on contents of the body
+- type can be plain or html depending on contents of the body
 ```
 
 - Receive mail: host_url/mail-server/receive (POST)
